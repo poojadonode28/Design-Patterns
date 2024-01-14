@@ -1,0 +1,8 @@
+I Button onClick
+I Buttonfactory createButton
+
+C LinkButton implement Button
+C LinkButtonFactory implement Buttonfactory
+
+C RoundButton
+C RoundButtonFactory

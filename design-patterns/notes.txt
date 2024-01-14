@@ -1,0 +1,49 @@
+
+- Registery Pattern is a global association from keys to objects, allowing the objects to be reached from anywhere.
+(wrapper over map)
+
+- Factory (very common in frontend) phone, tab, desktop -- button
+removing/reducing overall usage of subclasses at all (because it can change a lot, backward incompatible change)
+
+--> simple factory (not a design pattern)
+utility method to achieve re-usability
+1. product interface/abstract class
+2. product concrete classes (product hierarchy)
+   1 and 2 common
+3. create factory class
+
+problems:
+multiple reasons to change
+srp + ocp violation
+hard to maintain, extend
+
+--> factory method
+when there is a superclass and multiple subclasses and we want to get object of subclasses based on input and requirements.
+Then we create factory class which takes responsibility of creating objects of class based on input.
+3. create a corresponding factory hierarchy
+concrete product class and factory class for 1 product
+
+advantages:
+focus on creating object for interface rather than implementation.
+loose coupling, more robust code
+
+--> abstract factory (just an extension)
+family of products
+1. Product interface
+2. Product concrete class
+3. Product factory (Family factory)
+4. Factory concrete subclasses
+
+-------------------------------------------------------------------------------------------------
+
+structural design pattern
+how to structure your code? 1 class or multiple class
+
+
+- adapter pattern (for content negotiation)
+connects multiple incompatible interfaces
+adapting request/format
+
+
+- fly weight pattern
+reduces memory footprint(sharing data)

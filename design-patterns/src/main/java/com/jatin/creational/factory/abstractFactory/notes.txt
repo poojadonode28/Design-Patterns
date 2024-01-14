@@ -1,0 +1,12 @@
+product
+I Button
+I Checkbox
+C DarkButton
+C DarkCheckBox
+C LightButton
+C LightCheckbox
+
+factory
+I ThemeFactory createButton, createCheckbox
+C DarkFactory
+C LightFactory
